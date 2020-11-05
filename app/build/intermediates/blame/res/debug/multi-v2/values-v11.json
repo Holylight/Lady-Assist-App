@@ -1,0 +1,28 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\Allen\\Desktop\\Android Resouces\\PROJECT\\Lady Assist App\\Lady Assist App\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v11\\values-v11.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Allen\\Desktop\\Android Resouces\\PROJECT\\Lady Assist App\\Lady Assist App\\app\\src\\main\\res\\values-v11\\styles.xml",
+                    "from": {
+                        "startLines": "6,9",
+                        "startColumns": "4,4",
+                        "startOffsets": "177,314",
+                        "endLines": "8,14",
+                        "endColumns": "12,12",
+                        "endOffsets": "309,486"
+                    },
+                    "to": {
+                        "startLines": "2,5",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,192",
+                        "endLines": "4,10",
+                        "endColumns": "12,12",
+                        "endOffsets": "187,364"
+                    }
+                }
+            ]
+        }
+    ]
+}

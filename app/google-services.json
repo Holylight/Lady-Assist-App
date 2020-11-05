@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "113746981865",
+    "firebase_url": "https://lady-assist-99a1b.firebaseio.com",
+    "project_id": "lady-assist-99a1b",
+    "storage_bucket": "lady-assist-99a1b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:113746981865:android:a5539ecacbfdc123a4d178",
+        "android_client_info": {
+          "package_name": "com.prabhu.womensafetyapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "113746981865-9o3lgogj76i52bgqvssbossocogi82f8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBt3BB5L97Vh8NGl5fPcMuuzRmxAC5l4Qs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "113746981865-9o3lgogj76i52bgqvssbossocogi82f8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

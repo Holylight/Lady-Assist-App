@@ -1,0 +1,280 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.prabhu.womensafetyapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->C:\Users\Allen\Desktop\Android Resouces\PROJECT\Lady Assist App\Lady Assist App\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->C:\Users\Allen\Desktop\Android Resouces\PROJECT\Lady Assist App\Lady Assist App\app\src\main\AndroidManifest.xml
+10
+11    <!--
+12         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+13         Google Maps Android API v2, but you must specify either coarse or fine
+14         location permissions for the "MyLocation" functionality.
+15    -->
+16    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+16-->C:\Users\Allen\Desktop\Android Resouces\PROJECT\Lady Assist App\Lady Assist App\app\src\main\AndroidManifest.xml:12:5-79
+16-->C:\Users\Allen\Desktop\Android Resouces\PROJECT\Lady Assist App\Lady Assist App\app\src\main\AndroidManifest.xml:12:22-76
+17    <uses-permission android:name="android.permission.INTERNET" />
+17-->C:\Users\Allen\Desktop\Android Resouces\PROJECT\Lady Assist App\Lady Assist App\app\src\main\AndroidManifest.xml:13:5-67
+17-->C:\Users\Allen\Desktop\Android Resouces\PROJECT\Lady Assist App\Lady Assist App\app\src\main\AndroidManifest.xml:13:22-64
+18    <uses-permission android:name="android.permission.SEND_SMS" />
+18-->C:\Users\Allen\Desktop\Android Resouces\PROJECT\Lady Assist App\Lady Assist App\app\src\main\AndroidManifest.xml:14:5-67
+18-->C:\Users\Allen\Desktop\Android Resouces\PROJECT\Lady Assist App\Lady Assist App\app\src\main\AndroidManifest.xml:14:22-64
+19    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+19-->C:\Users\Allen\Desktop\Android Resouces\PROJECT\Lady Assist App\Lady Assist App\app\src\main\AndroidManifest.xml:15:5-75
+19-->C:\Users\Allen\Desktop\Android Resouces\PROJECT\Lady Assist App\Lady Assist App\app\src\main\AndroidManifest.xml:15:22-72
+20
+21    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+22    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+23    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+23-->[com.google.firebase:firebase-database:19.5.1] C:\Users\Allen\.gradle\caches\transforms-2\files-2.1\96549c445514d62b610217f2428f138b\jetified-firebase-database-19.5.1\AndroidManifest.xml:25:5-79
+23-->[com.google.firebase:firebase-database:19.5.1] C:\Users\Allen\.gradle\caches\transforms-2\files-2.1\96549c445514d62b610217f2428f138b\jetified-firebase-database-19.5.1\AndroidManifest.xml:25:22-76
+24
+25    <uses-feature
+25-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Allen\.gradle\caches\transforms-2\files-2.1\56ffcd59bb4dff27e993561fce14a638\jetified-play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+26        android:glEsVersion="0x00020000"
+26-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Allen\.gradle\caches\transforms-2\files-2.1\56ffcd59bb4dff27e993561fce14a638\jetified-play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+27        android:required="true" />
+27-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Allen\.gradle\caches\transforms-2\files-2.1\56ffcd59bb4dff27e993561fce14a638\jetified-play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+28
+29    <uses-permission android:name="android.permission.WAKE_LOCK" />
+29-->[com.google.android.gms:play-services-measurement-api:18.0.0] C:\Users\Allen\.gradle\caches\transforms-2\files-2.1\c373e5c787c1ab82f9e46da64f79608b\jetified-play-services-measurement-api-18.0.0\AndroidManifest.xml:24:5-68
+29-->[com.google.android.gms:play-services-measurement-api:18.0.0] C:\Users\Allen\.gradle\caches\transforms-2\files-2.1\c373e5c787c1ab82f9e46da64f79608b\jetified-play-services-measurement-api-18.0.0\AndroidManifest.xml:24:22-65
+30    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+30-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\Allen\.gradle\caches\transforms-2\files-2.1\09a0c8e4a1aa3137ef91db6ddbc52ea5\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:26:5-110
+30-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\Allen\.gradle\caches\transforms-2\files-2.1\09a0c8e4a1aa3137ef91db6ddbc52ea5\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:26:22-107
+31
+32    <application
+32-->C:\Users\Allen\Desktop\Android Resouces\PROJECT\Lady Assist App\Lady Assist App\app\src\main\AndroidManifest.xml:17:5-85:19
+33        android:allowBackup="true"
+33-->C:\Users\Allen\Desktop\Android Resouces\PROJECT\Lady Assist App\Lady Assist App\app\src\main\AndroidManifest.xml:18:9-35
+34        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+34-->[androidx.core:core:1.0.0] C:\Users\Allen\.gradle\caches\transforms-2\files-2.1\a63089cd2db1a283de1508b5feb3a329\core-1.0.0\AndroidManifest.xml:22:18-86
+35        android:debuggable="true"
+36        android:icon="@drawable/ic_launcher"
+36-->C:\Users\Allen\Desktop\Android Resouces\PROJECT\Lady Assist App\Lady Assist App\app\src\main\AndroidManifest.xml:19:9-45
+37        android:label="@string/app_name"
+37-->C:\Users\Allen\Desktop\Android Resouces\PROJECT\Lady Assist App\Lady Assist App\app\src\main\AndroidManifest.xml:20:9-41
+38        android:testOnly="true"
+39        android:theme="@style/AppTheme" >
+39-->C:\Users\Allen\Desktop\Android Resouces\PROJECT\Lady Assist App\Lady Assist App\app\src\main\AndroidManifest.xml:21:9-40
+40
+41        <!--
+42             The API key for Google Maps-based APIs is defined as a string resource.
+43             (See the file "res/values/google_maps_api.xml").
+44             Note that the API key is linked to the encryption key used to sign the APK.
+45             You need a different API key for each encryption key, including the release key that is used to
+46             sign the APK for publishing.
+47             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+48        -->
+49        <meta-data
+49-->C:\Users\Allen\Desktop\Android Resouces\PROJECT\Lady Assist App\Lady Assist App\app\src\main\AndroidManifest.xml:31:9-33:55
+50            android:name="com.google.android.geo.API_KEY"
+50-->C:\Users\Allen\Desktop\Android Resouces\PROJECT\Lady Assist App\Lady Assist App\app\src\main\AndroidManifest.xml:32:13-58
+51            android:value="@string/google_maps_key" />
+51-->C:\Users\Allen\Desktop\Android Resouces\PROJECT\Lady Assist App\Lady Assist App\app\src\main\AndroidManifest.xml:33:13-52
+52
+53        <activity
+53-->C:\Users\Allen\Desktop\Android Resouces\PROJECT\Lady Assist App\Lady Assist App\app\src\main\AndroidManifest.xml:35:9-37:67
+54            android:name="com.prabhu.womensafetyapp.MapActivity"
+54-->C:\Users\Allen\Desktop\Android Resouces\PROJECT\Lady Assist App\Lady Assist App\app\src\main\AndroidManifest.xml:36:13-40
+55            android:label="@string/title_activity_map" />
+55-->C:\Users\Allen\Desktop\Android Resouces\PROJECT\Lady Assist App\Lady Assist App\app\src\main\AndroidManifest.xml:37:13-55
+56        <activity
+56-->C:\Users\Allen\Desktop\Android Resouces\PROJECT\Lady Assist App\Lady Assist App\app\src\main\AndroidManifest.xml:38:9-46:20
+57            android:name="com.prabhu.womensafetyapp.SplashScreenActivity"
+57-->C:\Users\Allen\Desktop\Android Resouces\PROJECT\Lady Assist App\Lady Assist App\app\src\main\AndroidManifest.xml:39:13-49
+58            android:theme="@style/SplashTheme" >
+58-->C:\Users\Allen\Desktop\Android Resouces\PROJECT\Lady Assist App\Lady Assist App\app\src\main\AndroidManifest.xml:40:13-47
+59            <intent-filter>
+59-->C:\Users\Allen\Desktop\Android Resouces\PROJECT\Lady Assist App\Lady Assist App\app\src\main\AndroidManifest.xml:41:13-45:29
+60                <action android:name="android.intent.action.MAIN" />
+60-->C:\Users\Allen\Desktop\Android Resouces\PROJECT\Lady Assist App\Lady Assist App\app\src\main\AndroidManifest.xml:42:17-69
+60-->C:\Users\Allen\Desktop\Android Resouces\PROJECT\Lady Assist App\Lady Assist App\app\src\main\AndroidManifest.xml:42:25-66
+61
+62                <category android:name="android.intent.category.LAUNCHER" />
+62-->C:\Users\Allen\Desktop\Android Resouces\PROJECT\Lady Assist App\Lady Assist App\app\src\main\AndroidManifest.xml:44:17-77
+62-->C:\Users\Allen\Desktop\Android Resouces\PROJECT\Lady Assist App\Lady Assist App\app\src\main\AndroidManifest.xml:44:27-74
+63            </intent-filter>
+64        </activity>
+65        <activity
+65-->C:\Users\Allen\Desktop\Android Resouces\PROJECT\Lady Assist App\Lady Assist App\app\src\main\AndroidManifest.xml:47:9-49:48
+66            android:name="com.prabhu.womensafetyapp.MainActivity"
+66-->C:\Users\Allen\Desktop\Android Resouces\PROJECT\Lady Assist App\Lady Assist App\app\src\main\AndroidManifest.xml:48:13-41
+67            android:label="@string/app_name" />
+67-->C:\Users\Allen\Desktop\Android Resouces\PROJECT\Lady Assist App\Lady Assist App\app\src\main\AndroidManifest.xml:49:13-45
+68        <activity
+68-->C:\Users\Allen\Desktop\Android Resouces\PROJECT\Lady Assist App\Lady Assist App\app\src\main\AndroidManifest.xml:50:9-57:20
+69            android:name="com.prabhu.womensafetyapp.Register"
+69-->C:\Users\Allen\Desktop\Android Resouces\PROJECT\Lady Assist App\Lady Assist App\app\src\main\AndroidManifest.xml:51:13-37
+70            android:label="@string/title_activity_register"
+70-->C:\Users\Allen\Desktop\Android Resouces\PROJECT\Lady Assist App\Lady Assist App\app\src\main\AndroidManifest.xml:52:13-60
+71            android:parentActivityName="com.prabhu.womensafetyapp.MainActivity" >
+71-->C:\Users\Allen\Desktop\Android Resouces\PROJECT\Lady Assist App\Lady Assist App\app\src\main\AndroidManifest.xml:53:13-55
+72            <meta-data
+72-->C:\Users\Allen\Desktop\Android Resouces\PROJECT\Lady Assist App\Lady Assist App\app\src\main\AndroidManifest.xml:54:13-56:74
+73                android:name="android.support.PARENT_ACTIVITY"
+73-->C:\Users\Allen\Desktop\Android Resouces\PROJECT\Lady Assist App\Lady Assist App\app\src\main\AndroidManifest.xml:55:17-63
+74                android:value="com.prabhu.womensafetyapp.MainActivity" />
+74-->C:\Users\Allen\Desktop\Android Resouces\PROJECT\Lady Assist App\Lady Assist App\app\src\main\AndroidManifest.xml:56:17-71
+75        </activity>
+76        <activity
+76-->C:\Users\Allen\Desktop\Android Resouces\PROJECT\Lady Assist App\Lady Assist App\app\src\main\AndroidManifest.xml:58:9-65:20
+77            android:name="com.prabhu.womensafetyapp.Display"
+77-->C:\Users\Allen\Desktop\Android Resouces\PROJECT\Lady Assist App\Lady Assist App\app\src\main\AndroidManifest.xml:59:13-36
+78            android:label="@string/title_activity_display"
+78-->C:\Users\Allen\Desktop\Android Resouces\PROJECT\Lady Assist App\Lady Assist App\app\src\main\AndroidManifest.xml:60:13-59
+79            android:parentActivityName="com.prabhu.womensafetyapp.MainActivity" >
+79-->C:\Users\Allen\Desktop\Android Resouces\PROJECT\Lady Assist App\Lady Assist App\app\src\main\AndroidManifest.xml:61:13-55
+80            <meta-data
+80-->C:\Users\Allen\Desktop\Android Resouces\PROJECT\Lady Assist App\Lady Assist App\app\src\main\AndroidManifest.xml:54:13-56:74
+81                android:name="android.support.PARENT_ACTIVITY"
+81-->C:\Users\Allen\Desktop\Android Resouces\PROJECT\Lady Assist App\Lady Assist App\app\src\main\AndroidManifest.xml:55:17-63
+82                android:value="com.prabhu.womensafetyapp.MainActivity" />
+82-->C:\Users\Allen\Desktop\Android Resouces\PROJECT\Lady Assist App\Lady Assist App\app\src\main\AndroidManifest.xml:56:17-71
+83        </activity>
+84
+85        <service android:name="com.prabhu.womensafetyapp.BgService" />
+85-->C:\Users\Allen\Desktop\Android Resouces\PROJECT\Lady Assist App\Lady Assist App\app\src\main\AndroidManifest.xml:67:9-46
+85-->C:\Users\Allen\Desktop\Android Resouces\PROJECT\Lady Assist App\Lady Assist App\app\src\main\AndroidManifest.xml:67:18-43
+86
+87        <activity
+87-->C:\Users\Allen\Desktop\Android Resouces\PROJECT\Lady Assist App\Lady Assist App\app\src\main\AndroidManifest.xml:69:9-76:20
+88            android:name="com.prabhu.womensafetyapp.Instructions"
+88-->C:\Users\Allen\Desktop\Android Resouces\PROJECT\Lady Assist App\Lady Assist App\app\src\main\AndroidManifest.xml:70:13-41
+89            android:label="@string/title_activity_instructions"
+89-->C:\Users\Allen\Desktop\Android Resouces\PROJECT\Lady Assist App\Lady Assist App\app\src\main\AndroidManifest.xml:71:13-64
+90            android:parentActivityName="com.prabhu.womensafetyapp.MainActivity" >
+90-->C:\Users\Allen\Desktop\Android Resouces\PROJECT\Lady Assist App\Lady Assist App\app\src\main\AndroidManifest.xml:72:13-55
+91            <meta-data
+91-->C:\Users\Allen\Desktop\Android Resouces\PROJECT\Lady Assist App\Lady Assist App\app\src\main\AndroidManifest.xml:54:13-56:74
+92                android:name="android.support.PARENT_ACTIVITY"
+92-->C:\Users\Allen\Desktop\Android Resouces\PROJECT\Lady Assist App\Lady Assist App\app\src\main\AndroidManifest.xml:55:17-63
+93                android:value="com.prabhu.womensafetyapp.MainActivity" />
+93-->C:\Users\Allen\Desktop\Android Resouces\PROJECT\Lady Assist App\Lady Assist App\app\src\main\AndroidManifest.xml:56:17-71
+94        </activity>
+95        <activity
+95-->C:\Users\Allen\Desktop\Android Resouces\PROJECT\Lady Assist App\Lady Assist App\app\src\main\AndroidManifest.xml:77:9-84:20
+96            android:name="com.prabhu.womensafetyapp.Verify"
+96-->C:\Users\Allen\Desktop\Android Resouces\PROJECT\Lady Assist App\Lady Assist App\app\src\main\AndroidManifest.xml:78:13-35
+97            android:label="@string/title_activity_verify"
+97-->C:\Users\Allen\Desktop\Android Resouces\PROJECT\Lady Assist App\Lady Assist App\app\src\main\AndroidManifest.xml:79:13-58
+98            android:parentActivityName="com.prabhu.womensafetyapp.MainActivity" >
+98-->C:\Users\Allen\Desktop\Android Resouces\PROJECT\Lady Assist App\Lady Assist App\app\src\main\AndroidManifest.xml:80:13-55
+99            <meta-data
+99-->C:\Users\Allen\Desktop\Android Resouces\PROJECT\Lady Assist App\Lady Assist App\app\src\main\AndroidManifest.xml:54:13-56:74
+100                android:name="android.support.PARENT_ACTIVITY"
+100-->C:\Users\Allen\Desktop\Android Resouces\PROJECT\Lady Assist App\Lady Assist App\app\src\main\AndroidManifest.xml:55:17-63
+101                android:value="com.prabhu.womensafetyapp.MainActivity" />
+101-->C:\Users\Allen\Desktop\Android Resouces\PROJECT\Lady Assist App\Lady Assist App\app\src\main\AndroidManifest.xml:56:17-71
+102        </activity>
+103
+104        <service
+104-->[com.google.firebase:firebase-database:19.5.1] C:\Users\Allen\.gradle\caches\transforms-2\files-2.1\96549c445514d62b610217f2428f138b\jetified-firebase-database-19.5.1\AndroidManifest.xml:29:9-35:19
+105            android:name="com.google.firebase.components.ComponentDiscoveryService"
+105-->[com.google.firebase:firebase-database:19.5.1] C:\Users\Allen\.gradle\caches\transforms-2\files-2.1\96549c445514d62b610217f2428f138b\jetified-firebase-database-19.5.1\AndroidManifest.xml:30:13-84
+106            android:directBootAware="true"
+106-->[com.google.firebase:firebase-common:19.3.1] C:\Users\Allen\.gradle\caches\transforms-2\files-2.1\90de2e207a7c455b15147d888e5e1cae\jetified-firebase-common-19.3.1\AndroidManifest.xml:35:13-43
+107            android:exported="false" >
+107-->[com.google.firebase:firebase-database:19.5.1] C:\Users\Allen\.gradle\caches\transforms-2\files-2.1\96549c445514d62b610217f2428f138b\jetified-firebase-database-19.5.1\AndroidManifest.xml:31:13-37
+108            <meta-data
+108-->[com.google.firebase:firebase-database:19.5.1] C:\Users\Allen\.gradle\caches\transforms-2\files-2.1\96549c445514d62b610217f2428f138b\jetified-firebase-database-19.5.1\AndroidManifest.xml:32:13-34:85
+109                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+109-->[com.google.firebase:firebase-database:19.5.1] C:\Users\Allen\.gradle\caches\transforms-2\files-2.1\96549c445514d62b610217f2428f138b\jetified-firebase-database-19.5.1\AndroidManifest.xml:33:17-109
+110                android:value="com.google.firebase.components.ComponentRegistrar" />
+110-->[com.google.firebase:firebase-database:19.5.1] C:\Users\Allen\.gradle\caches\transforms-2\files-2.1\96549c445514d62b610217f2428f138b\jetified-firebase-database-19.5.1\AndroidManifest.xml:34:17-82
+111            <meta-data
+111-->[com.google.android.gms:play-services-measurement-api:18.0.0] C:\Users\Allen\.gradle\caches\transforms-2\files-2.1\c373e5c787c1ab82f9e46da64f79608b\jetified-play-services-measurement-api-18.0.0\AndroidManifest.xml:30:13-32:85
+112                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+112-->[com.google.android.gms:play-services-measurement-api:18.0.0] C:\Users\Allen\.gradle\caches\transforms-2\files-2.1\c373e5c787c1ab82f9e46da64f79608b\jetified-play-services-measurement-api-18.0.0\AndroidManifest.xml:31:17-139
+113                android:value="com.google.firebase.components.ComponentRegistrar" />
+113-->[com.google.android.gms:play-services-measurement-api:18.0.0] C:\Users\Allen\.gradle\caches\transforms-2\files-2.1\c373e5c787c1ab82f9e46da64f79608b\jetified-play-services-measurement-api-18.0.0\AndroidManifest.xml:32:17-82
+114            <meta-data
+114-->[com.google.firebase:firebase-installations:16.3.3] C:\Users\Allen\.gradle\caches\transforms-2\files-2.1\b95224ec4409dd23705480717e2a8a07\jetified-firebase-installations-16.3.3\AndroidManifest.xml:17:13-19:85
+115                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+115-->[com.google.firebase:firebase-installations:16.3.3] C:\Users\Allen\.gradle\caches\transforms-2\files-2.1\b95224ec4409dd23705480717e2a8a07\jetified-firebase-installations-16.3.3\AndroidManifest.xml:18:17-127
+116                android:value="com.google.firebase.components.ComponentRegistrar" />
+116-->[com.google.firebase:firebase-installations:16.3.3] C:\Users\Allen\.gradle\caches\transforms-2\files-2.1\b95224ec4409dd23705480717e2a8a07\jetified-firebase-installations-16.3.3\AndroidManifest.xml:19:17-82
+117        </service> <!-- Needs to be explicitly declared on P+ -->
+118        <uses-library
+118-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Allen\.gradle\caches\transforms-2\files-2.1\56ffcd59bb4dff27e993561fce14a638\jetified-play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+119            android:name="org.apache.http.legacy"
+119-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Allen\.gradle\caches\transforms-2\files-2.1\56ffcd59bb4dff27e993561fce14a638\jetified-play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+120            android:required="false" />
+120-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Allen\.gradle\caches\transforms-2\files-2.1\56ffcd59bb4dff27e993561fce14a638\jetified-play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+121
+122        <activity
+122-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Allen\.gradle\caches\transforms-2\files-2.1\28d1126bfbf918624d7dd995dc548659\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+123            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+123-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Allen\.gradle\caches\transforms-2\files-2.1\28d1126bfbf918624d7dd995dc548659\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+124            android:exported="false"
+124-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Allen\.gradle\caches\transforms-2\files-2.1\28d1126bfbf918624d7dd995dc548659\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+125            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+125-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Allen\.gradle\caches\transforms-2\files-2.1\28d1126bfbf918624d7dd995dc548659\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+126
+127        <provider
+127-->[com.google.firebase:firebase-common:19.3.1] C:\Users\Allen\.gradle\caches\transforms-2\files-2.1\90de2e207a7c455b15147d888e5e1cae\jetified-firebase-common-19.3.1\AndroidManifest.xml:26:9-31:39
+128            android:name="com.google.firebase.provider.FirebaseInitProvider"
+128-->[com.google.firebase:firebase-common:19.3.1] C:\Users\Allen\.gradle\caches\transforms-2\files-2.1\90de2e207a7c455b15147d888e5e1cae\jetified-firebase-common-19.3.1\AndroidManifest.xml:27:13-77
+129            android:authorities="com.prabhu.womensafetyapp.firebaseinitprovider"
+129-->[com.google.firebase:firebase-common:19.3.1] C:\Users\Allen\.gradle\caches\transforms-2\files-2.1\90de2e207a7c455b15147d888e5e1cae\jetified-firebase-common-19.3.1\AndroidManifest.xml:28:13-72
+130            android:directBootAware="true"
+130-->[com.google.firebase:firebase-common:19.3.1] C:\Users\Allen\.gradle\caches\transforms-2\files-2.1\90de2e207a7c455b15147d888e5e1cae\jetified-firebase-common-19.3.1\AndroidManifest.xml:29:13-43
+131            android:exported="false"
+131-->[com.google.firebase:firebase-common:19.3.1] C:\Users\Allen\.gradle\caches\transforms-2\files-2.1\90de2e207a7c455b15147d888e5e1cae\jetified-firebase-common-19.3.1\AndroidManifest.xml:30:13-37
+132            android:initOrder="100" />
+132-->[com.google.firebase:firebase-common:19.3.1] C:\Users\Allen\.gradle\caches\transforms-2\files-2.1\90de2e207a7c455b15147d888e5e1cae\jetified-firebase-common-19.3.1\AndroidManifest.xml:31:13-36
+133
+134        <receiver
+134-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\Allen\.gradle\caches\transforms-2\files-2.1\09a0c8e4a1aa3137ef91db6ddbc52ea5\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:29:9-33:20
+135            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+135-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\Allen\.gradle\caches\transforms-2\files-2.1\09a0c8e4a1aa3137ef91db6ddbc52ea5\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:30:13-85
+136            android:enabled="true"
+136-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\Allen\.gradle\caches\transforms-2\files-2.1\09a0c8e4a1aa3137ef91db6ddbc52ea5\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:31:13-35
+137            android:exported="false" >
+137-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\Allen\.gradle\caches\transforms-2\files-2.1\09a0c8e4a1aa3137ef91db6ddbc52ea5\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:32:13-37
+138        </receiver>
+139
+140        <service
+140-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\Allen\.gradle\caches\transforms-2\files-2.1\09a0c8e4a1aa3137ef91db6ddbc52ea5\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:35:9-38:40
+141            android:name="com.google.android.gms.measurement.AppMeasurementService"
+141-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\Allen\.gradle\caches\transforms-2\files-2.1\09a0c8e4a1aa3137ef91db6ddbc52ea5\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:36:13-84
+142            android:enabled="true"
+142-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\Allen\.gradle\caches\transforms-2\files-2.1\09a0c8e4a1aa3137ef91db6ddbc52ea5\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:37:13-35
+143            android:exported="false" />
+143-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\Allen\.gradle\caches\transforms-2\files-2.1\09a0c8e4a1aa3137ef91db6ddbc52ea5\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:38:13-37
+144        <service
+144-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\Allen\.gradle\caches\transforms-2\files-2.1\09a0c8e4a1aa3137ef91db6ddbc52ea5\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:39:9-43:72
+145            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+145-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\Allen\.gradle\caches\transforms-2\files-2.1\09a0c8e4a1aa3137ef91db6ddbc52ea5\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:40:13-87
+146            android:enabled="true"
+146-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\Allen\.gradle\caches\transforms-2\files-2.1\09a0c8e4a1aa3137ef91db6ddbc52ea5\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:41:13-35
+147            android:exported="false"
+147-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\Allen\.gradle\caches\transforms-2\files-2.1\09a0c8e4a1aa3137ef91db6ddbc52ea5\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:42:13-37
+148            android:permission="android.permission.BIND_JOB_SERVICE" />
+148-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\Allen\.gradle\caches\transforms-2\files-2.1\09a0c8e4a1aa3137ef91db6ddbc52ea5\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:43:13-69
+149
+150        <meta-data
+150-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Allen\.gradle\caches\transforms-2\files-2.1\ccfab06322eb84d9615c39f4ac21c534\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+151            android:name="com.google.android.gms.version"
+151-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Allen\.gradle\caches\transforms-2\files-2.1\ccfab06322eb84d9615c39f4ac21c534\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+152            android:value="@integer/google_play_services_version" />
+152-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Allen\.gradle\caches\transforms-2\files-2.1\ccfab06322eb84d9615c39f4ac21c534\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+153
+154        <provider
+154-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Allen\.gradle\caches\transforms-2\files-2.1\ff71c2b5549d6266bbbd391e29998920\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
+155            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+155-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Allen\.gradle\caches\transforms-2\files-2.1\ff71c2b5549d6266bbbd391e29998920\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79
+156            android:authorities="com.prabhu.womensafetyapp.lifecycle-process"
+156-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Allen\.gradle\caches\transforms-2\files-2.1\ff71c2b5549d6266bbbd391e29998920\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:25:13-69
+157            android:exported="false"
+157-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Allen\.gradle\caches\transforms-2\files-2.1\ff71c2b5549d6266bbbd391e29998920\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
+158            android:multiprocess="true" />
+158-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Allen\.gradle\caches\transforms-2\files-2.1\ff71c2b5549d6266bbbd391e29998920\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:27:13-40
+159    </application>
+160
+161</manifest>
